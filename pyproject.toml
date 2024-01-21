@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "temom"
+version = "0.1.0"
+description = "A terminal EMOM counter"
+authors = ["Ashleen Daly <ashddev@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+textual = "^0.47.1"
+textual-dev = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
