@@ -1,0 +1,13 @@
+Screen {
+    align: center middle;
+}
+
+Actions {
+    layout: horizontal;
+    width: auto;
+}
+
+#timer {
+    border: double green;
+    width: auto;
+}
